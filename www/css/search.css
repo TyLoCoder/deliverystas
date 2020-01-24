@@ -1,0 +1,106 @@
+body {
+	background: var(--main);
+}
+
+/*Main*/
+.main {
+	width: 100vw;
+	height: 40vh;
+	padding: 20px;
+	display: flex;
+	flex-flow: column;
+}
+
+.main h1 {
+	font: 50px 'Roboto';
+	font-weight: 700;
+	color: white;
+	margin: 0;
+	padding: 0;
+	margin-top: 20vh;
+}
+
+.main h2 {
+	font: 42px 'Roboto';
+	font-weight: 400;
+	color: white;
+	opacity: .8;
+	margin: 0;
+	padding: 0;
+}
+
+/*Loader*/
+.loader {
+	width: 100vw;
+	height: 60vh;
+	display: flex;
+	flex-flow: row;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.loader .container {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-flow: row;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.big-circle {
+	width: 80%;
+	height: 80%;
+	border: 2px solid white;
+	border-radius: 80%;
+	display: flex;
+	flex-flow: row;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	-webkit-animation: cirani 2s ease-in-out infinite;
+	-o-animation: cirani 2s ease-in-out infinite;
+	animation: cirani 2s ease-in-out infinite;
+}
+
+.mid-circle {
+	width: 80%;
+	height: 80%;
+	border: 8px solid white;
+	border-radius: 80%;
+	display: flex;
+	flex-flow: row;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	-webkit-animation: cirani 2s ease-in-out .2s infinite;
+	-o-animation: cirani 2s ease-in-out .2s infinite;
+	animation: cirani 2s ease-in-out .2s infinite;
+}
+
+.sm-cirlce {
+	width: 80%;
+	height: 80%;
+	background: white;
+	border-radius: 80%;
+	-webkit-animation: cirani 2s ease-in-out .4s infinite;
+	-o-animation: cirani 2s ease-in-out .4s infinite;
+	animation: cirani 2s ease-in-out .4s infinite;
+}
+
+@keyframes cirani {
+	0% {
+		width: 80%;
+		height: 80%;
+	}
+	25% {
+		width: 50%;
+		height: 50%;
+	}
+	100% {
+		width: 80%;
+		height: 80%;
+	}
+}

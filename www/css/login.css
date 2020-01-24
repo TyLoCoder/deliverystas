@@ -1,0 +1,73 @@
+/*Background*/
+.back_imgbox {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	z-index: 1;
+	display: flex;
+	flex-flow: row;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.back_img {
+	width: auto;
+	height: 100%;
+}
+
+.back_over {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	z-index: 2;
+	background: var(--main);
+	opacity: .3;
+}
+
+/*Main section*/
+.main {
+	width: 100vw;
+	padding: 20px;
+	display: flex;
+	flex-flow: column;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+	position: absolute;
+	z-index: 3;
+}
+
+.main h1 {
+	font: 64px 'Roboto';
+	font-weight: 700;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.main .input {
+	width: 100%;
+	height: 50px;
+	background: white;
+	padding: 0 0 0 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	-ms-align-items: center;
+	align-items: center;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.main .input input {
+	width: 90%;
+	height: 100%;
+	border: none;
+	font: 18px 'Roboto';
+	font-weight: 400;
+	color: #303030;
+}
+
+.main .input i {
+	font-size: 30px !important;
+	color: #303030;
+}

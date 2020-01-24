@@ -1,0 +1,37 @@
+body {
+	background: var(--main);
+}
+
+.main {
+	width: 100vw;
+	height: 100vh;
+	padding: 20px;
+	display: flex;
+	flex-flow: column;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.main h2 {
+	font: 42px 'Roboto';
+	font-weight: 400;
+	color: white;
+	margin: 0;
+	opacity: .8;
+}
+
+.main h1 {
+	font: 64px 'Roboto';
+	font-weight: 700;
+	color: white;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.main i {
+	width: 100%;
+	font-size: 180px;
+	color: white;
+	text-align: center;
+}

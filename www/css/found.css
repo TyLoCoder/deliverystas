@@ -1,0 +1,48 @@
+body {
+	background: var(--main);
+}
+
+.main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-flow: column;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 20px;
+}
+
+.main h1 {
+	font: 50px 'Roboto';
+	font-weight: 700;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.main h2 {
+	font: 42px 'Roboto';
+	font-weight: 400;
+	color: white;
+	margin: 0;
+	opacity: .8;
+}
+
+.main button {
+	width: 100%;
+	padding: 10px 0;
+	border: none;
+	border-radius: 10px;
+	background: white;
+	margin-top: 20px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	font: 20px 'Roboto';
+	font-weight: 400;
+	color: var(--main);
+	transition: filter .3s ease;
+}
+
+.main button:active {
+	filter: brightness(85%);
+}

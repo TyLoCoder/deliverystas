@@ -1,0 +1,51 @@
+body {
+	background: var(--main);
+}
+
+/*Top*/
+.top {
+	width: 100vw;
+	height: 10vh;
+	display: flex;
+	flex-flow: row nowrap;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.top h3 {
+	font: 24px 'Roboto';
+	font-weight: 500;
+	color: white;
+}
+
+/*Main*/
+.main {
+	width: 100vw;
+	height: 90vh;
+	padding: 20px;
+}
+
+.main ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main li {
+	margin-bottom: 10px;
+}
+
+.main li i {
+	margin-right: 20px;
+}
+
+.main li {
+	font: 20px 'Roboto';
+	font-weight: 400;
+	color: rgba(255, 255, 255, .4);
+}
+.main li.ready {
+	color: white !important;
+}

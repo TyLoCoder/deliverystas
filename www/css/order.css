@@ -1,0 +1,102 @@
+/*Top*/
+.top {
+	width: 100vw;
+	height: 10vh;
+	padding: 0 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	-ms-align-items: center;
+	align-items: center;
+	background: var(--main);
+}
+.top h3 {
+	font: 24px 'Roboto';
+	font-weight: 500;
+	color: white;
+}
+
+/*Main*/
+.main {
+	width: 100vw;
+	height: 80vh;
+	padding: 20px;
+	display: flex;
+	flex-flow: column;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+	justify-content: flex-start;
+	overflow-y: auto;
+}
+
+.main ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main li {
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main li p {
+	width: 90%;
+	font: 18px 'Roboto';
+	font-weight: 400;
+	color: #303030;
+}
+
+.main li i {
+	width: 10%;
+	font-size: 30px;
+	color: #FF3C3C;
+}
+
+.main button {
+	width: 100%;
+	padding: 5px 0;
+	background: transparent;
+	border: 2px solid var(--main);
+	font: 18px 'Roboto';
+	font-weight: 400;
+	color: var(--main);
+	border-radius: 10px;
+	transition: background .3s ease, color .3s ease;
+}
+.main button:active {
+	background: var(--main);
+	color: white;
+}
+
+/*Bottom*/
+.bottom {
+	width: 100vw;
+	height: 10vh;
+	padding: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom button {
+	width: 100%;
+	padding: 10px 0;
+	background: var(--main);
+	border: 0;
+	font: 20px 'Roboto';
+	font-weight: 400;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+	transition: filter .3s ease;
+}
+.bottom button:active {
+	filter: brightness(85%);
+}
